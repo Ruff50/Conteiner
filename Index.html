@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<title>Personal Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+<a href="#" class="logo">Portfolio</a>
+<div class ="toggle">
+    <ul>
+    <li><a href="#Home">Home</a></li>
+    <li><a href="#About">About</a></li>
+    <li><a href="#Services">Services</a></li>
+    <li><a href="#Work">Work</a></li>
+    <li><a href="#Contact">Contact</a></li>
+    </ul>
+</div>
+</header>
+<section class="banner" id="Home">
+	<div class="textBx">
+    <h2>Hello, I'm<br><span>Christophe BOLAC</span></h2>
+    <h3>I'm a front end web developper.</h3>
+    <a href="#About" class="btn">About Me</a>
+    </div>
+</section>
+<section class="about" id="About">          <!--comment -->
+<div class="heading">
+    <h2>About Me</h2>
+</div>
+<div class="content">
+    <div class="contentBxw50">
+    <h3>I'm a front end web developper.</h3>
+    <p>
+    Marié, 55 ans, j'habite dans le sud de la Réunion.<br>
+    Je vis là depuis 2 ans et j'apprécie énormément, outre la météo au beau fixe, les paysages et la flore de l'île.<br>
+    Passionné par le traitement de l'image, je suis aussi très à mon aise sur les logiciels de bureautique.<br>
+    J'ai occupé pendant longtemps les fonctions d'assistant administratif et commercial.<br> 
+    Aujourd'hui, je suis une formation en developpement web et web mobile pour continuer plus que jamais mes créations visuelles et leur donner le plus bel écrin grâce à l'animation et les styles Css.
+    J'espère trouver une belle audience et m'ouvrir les portes du succès.<br>
+    Comme vous pouvez le voir, je suis très admiratif devant le végétal.<br>J'aime le végétal!
+    <br><br>
+    </p>
+    </div>
+    <div class="w50">
+    <img src="Images/img1.jpg" class="img">
+    </div>
+</div>
+</section>
+<script type="text/javascript">
+    window.addEventListener('scroll',function(){
+    var header = document.querySelector('header')
+    header.classList.toggle('sticky',window.scrollY>0);
+    });
+</script>
+<section class="services" id="Services">
+    <div class="heading white">
+        <h2>My Services</h2>
+        <p>Voici certains de mes domaines de compétences :</p> 
+    </div>
+    <div class="content">
+        <div class="servicesBx">
+        <img src="Images/icon1.png">
+        <h2>Web Design</h2>
+        <p>J'ai quelques notions sur Photoshop et j'ai surtout travailler sur PowerPoint pour animer des textes écrits et réaliser de nombreux diaporamas<br>
+        En design, je peux réaliser facilement de belles interfaces graphiques modernes et responsive grâce à WordPress</p> 
+        </div>
+        <div class="servicesBx">
+        <img src="Images/icon2.png">
+        <h2>Web Development</h2>
+        <p>Aujourd'hui, je sais juste maquetter une application et réaliser une interface utilisateur web statique et adaptable. <br>
+        Par la suite, je vais apprendre à développer une interface utilisateur web dynamique, réaliser une interface utilisateur avec une solution de  gestion de contenu ou e-commerce, <br>créer une base de données, développer les composants d’accès aux données, développer la partie back-end d’une application web ou  web mobile, élaborer et mettre en œuvre des composants dans une  application de gestion de contenu ou e-commerce.<br>
+        Riche de ses compétences, je pourrais donc vous proposer mes services pour développer votre site web et l'administrer !
+        </p> 
+        </div>
+        <div class="servicesBx">
+        <img src="Images/icon4.png">
+        <h2>Photography</h2>
+        <p>J'ai déjà couvert un mariage en tant que photographe officiel et je réalise des photos en extérieur sur différents sujets.<br>
+        J'ai du très bon matériel (un NIKON D60) avec un téléobjectif qui offre une très bonne qualité des images et je peux immortaliser vos plus beaux souvenirs pour votre plus grand plaisir!</p> 
+        </div>
+        <div class="servicesBx">
+        <img src="Images/icon6.png">
+        <h2>Vidéo Editing</h2>
+        <p>Je connais différents éditeurs de vidéo comme pinnacle studio ou Magix qui permettent de réaliser des montages vidéos de niveau professionnel pour réaliser vos films de vacances! <br>
+        confiez-moi vos photos et je vous livrerai vos films au format souhaité !
+        </p> 
+        </div>
+    </div>
+</section>
+<section class="work" id="Work">
+        <div class="heading">
+        <h2>My Latest Work in Photography</h2>
+        <p>Je me suis rendu au Domaine du café grillé et j'ai réalisé ces quelques clichés.<br>Bon visionnage !</p>
+        </div>
+        <div class="content">
+            <div class="workBx">  
+            <img src="Images/work1.jpg"> 
+            </div>
+            <div class="workBx">  
+            <img src="Images/work2.jpg"> 
+            </div>
+            <div class="workBx">  
+            <img src="Images/work3.jpg"> 
+            </div>
+            <div class="workBx">  
+            <img src="Images/work4.jpg"> 
+            </div>
+        </div>
+</section>
+<section class="contact" id="Contact">
+    <div class="content-contact">
+        <h2>Contact Me</h2>
+        <p>Je vous laisse ici mes coordonnées, n'hésitez pas à m'appeler, je me ferai un plaisir d'échanger de vive voix avec vous!</p>
+        <p><br><br></p> 
+        <div class = icon>
+            <p><br><br></p>
+            <p><span class="gauche"><img src="Images/address-icon.jpg"><br></span><br><br><br><br>
+            <p><span class="gauche"><img src="Images/phone-icon.jpg"><br></span><br>
+            <p><span class="gauche"><img src="Images/mail-icon.jpg"></span></p>
+        </div> 
+        <div class="contactInfo">
+                <h3>Contact Info</h3>
+                   <h3>Address</h3>
+                    <p>M. Christophe BOLAC<br>
+                    54 CHE DES PEUPLIERS<br>
+                    Ligne Paradis<br>
+                    97410 SAINT-PIERRE
+                    </p>
+                    <h3>Phone</h3>
+                    <p>+262 693628068</p>   
+                    <h3>E-mail</h3>
+                    <p><span id="demotext"><a href="mailto:cbolac@gmail.com">cbolac@gmail.com</a></span></p>
+                    
+        </div> 
+        <div class="me-img"><img src="Images/Moi.jpg">
+        </div>
+    </div>
+   
+</section>
+
+</body> 
+</html>
+ 
